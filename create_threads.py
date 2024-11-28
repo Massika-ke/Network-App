@@ -12,4 +12,3 @@ def create_threads(list, function):
 
     for th in threads:
         th.join() #Waits for all threads to terminate
-        
